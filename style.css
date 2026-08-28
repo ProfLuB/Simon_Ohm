@@ -1,8 +1,12 @@
+body {
+    max-width: 100vw;
+}
+
 header {
     background-color: coral;
     color: rgb(59, 19, 19);
     text-align: center;
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: 0, auto;
     padding: 16px;
     border: 5px, solid, red;
@@ -13,9 +17,15 @@ main {
     background-color: rgb(252, 149, 111);
     color: blue;
     text-align-last: center;
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: 0, auto;
     display: flex;
+}
+
+article {
+    display: flex;
+
+    border: 1px solid red;
 }
 
 img {
@@ -25,4 +35,6 @@ img {
 
 .artigo-autor {
     font-weight: bold;
+
+
 }
