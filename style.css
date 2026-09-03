@@ -7,25 +7,37 @@ header {
     color: rgb(59, 19, 19);
     text-align: center;
     /*max-width: 800px;*/
-    margin: 0, auto;
+    /*margin: 0, auto;
     padding: 16px;
     border: 5px, solid, red;
-    display: flexbox;
+    display: flexbox;*/
 }
 
 main {
     background-color: rgb(252, 149, 111);
     color: blue;
-    text-align-last: center;
+    /*text-align-last: center;*/
     /*max-width: 800px;*/
     margin: 0, auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 article {
     display: flex;
 
     border: 1px solid red;
+  
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    flex: 1 1 25%;
 }
 
 img {
